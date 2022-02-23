@@ -320,6 +320,35 @@ footer {
   margin: 10px;
 }
 
+/*custom scrollbar start*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
+
+/* section line with Rounded border */
+hr.rounded {
+  border-top: 10px solid var(--primary-color);
+  border-radius: 5px;
+}
+/*custom scrollbar end*/
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
   nav {
